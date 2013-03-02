@@ -6,6 +6,6 @@
 class divvy {
   package { 'Divvy':
     provider => 'compressed_app',
-    source   => '',
+    source   => 'https://yum.cegeka.be/osx_packages/Divvy-1.3.6.zip',
   }
 }
